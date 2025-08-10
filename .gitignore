@@ -1,0 +1,27 @@
+# Ignore build directories
+/build/
+/bin/
+/out/
+
+# Ignore Visual Studio files (if you use it)
+*.vcxproj*
+*.sln
+*.user
+*.ipch
+*.pdb
+
+# Ignore object files and compiled binaries
+*.obj
+*.exe
+*.dll
+*.lib
+
+# Ignore temporary files and OS files
+*.log
+*.tmp
+*.cache
+.DS_Store
+Thumbs.db
+
+# Ignore googletest submodule if present
+third_party/googletest/
