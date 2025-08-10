@@ -1,5 +1,6 @@
-This repository contains the implementation of a simple Notepad application. 
-The application supports two main functionalities: opening a file and saving a file.
+# SimpleWin32Notepad
+Simple implementation of a notepad application.
+The application supports two primary functionalities: opening files and saving files.
 Prepared for BÜCHI Labortechnik.
 
 Features

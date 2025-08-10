@@ -1,27 +1,42 @@
-# Ignore build directories
-/build/
-/bin/
-/out/
+# Prerequisites
+*.d
 
-# Ignore Visual Studio files (if you use it)
-*.vcxproj*
-*.sln
-*.user
-*.ipch
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Linker files
+*.ilk
+
+# Debugger Files
 *.pdb
 
-# Ignore object files and compiled binaries
-*.obj
-*.exe
+# Compiled Dynamic libraries
+*.so
+*.dylib
 *.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
 *.lib
 
-# Ignore temporary files and OS files
-*.log
-*.tmp
-*.cache
-.DS_Store
-Thumbs.db
+# Executables
+*.exe
+*.out
+*.app
 
-# Ignore googletest submodule if present
-third_party/googletest/
+# debug information files
+*.dwo
+>>>>>>> eeb31021e26d8e528d7d6754b8a550aaea00cabc
