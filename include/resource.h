@@ -1,0 +1,3 @@
+#define ID_FILE_OPEN  10001
+#define ID_FILE_SAVE 10002
+#define ID_FILE_EXIT 10003
